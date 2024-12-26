@@ -1,0 +1,49 @@
+body {
+text-align: center;
+background-color: rgb(14, 14, 70);
+}
+h1 {
+    color: white;
+    font-size: 5rem;
+}
+.green {
+    border: 8px solid black;
+    background-color: green;
+    height:180px;
+    width: 180px;
+    border-radius: 20%;
+}
+.red {
+    border: 8px solid black;
+    background-color: red;
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+}
+.blue {
+    border: 8px solid black;
+    background-color: blue;
+    height:180px;
+    width: 180px;
+    border-radius: 20%;
+}
+.yellow{
+    border: 8px solid black;
+    background-color: yellow;
+    height:180px;
+    width: 180px;
+    border-radius: 20%;
+}
+button {
+
+    margin: 20px;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
